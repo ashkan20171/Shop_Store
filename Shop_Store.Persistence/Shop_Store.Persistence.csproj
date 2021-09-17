@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200815142854_Orders.cs" />
+    <Compile Remove="Migrations\20200815142854_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200815143600_Orders.cs" />
+    <Compile Remove="Migrations\20200815143600_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816072449_Orders.cs" />
+    <Compile Remove="Migrations\20200816072449_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816072617_Orders.cs" />
+    <Compile Remove="Migrations\20200816072617_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816072732_Orders.cs" />
+    <Compile Remove="Migrations\20200816072732_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816073107_Orders.cs" />
+    <Compile Remove="Migrations\20200816073107_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816073413_Orders.cs" />
+    <Compile Remove="Migrations\20200816073413_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816074234_Orders.cs" />
+    <Compile Remove="Migrations\20200816074234_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816074637_Orders.cs" />
+    <Compile Remove="Migrations\20200816074637_Orders.Designer.cs" />
+    <Compile Remove="Migrations\20200816081207_Orders.cs" />
+    <Compile Remove="Migrations\20200816081207_Orders.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.4.20220.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0-preview.4.20220.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.4.20220.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-preview.4.20220.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop_Store.Application\Shop_Store.Application.csproj" />
+    <ProjectReference Include="..\Shop_Store.Domain\Shop_Store.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
